@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>611</width>
+    <height>555</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="logo">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>10</y>
+     <width>91</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>D:/Cricspoint/Cricspoint41-03.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>110</y>
+     <width>221</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>35</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Add Match details</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>180</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>17</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Match Name</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>230</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>17</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>First Team</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>280</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>17</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Second Team</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>330</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>17</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Venue</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>380</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>17</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Start Date</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>430</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>17</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Home team</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="hTeam">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>430</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="t2">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>280</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="t1">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>230</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="mName">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>180</y>
+     <width>351</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="venue">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>330</y>
+     <width>351</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="startDate">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>380</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addMatch">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>500</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(0, 170, 0);</string>
+   </property>
+   <property name="text">
+    <string>Add Match</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="warn">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>470</y>
+     <width>471</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

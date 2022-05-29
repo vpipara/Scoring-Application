@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>611</width>
+    <height>555</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="logo">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>10</y>
+     <width>131</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>D:/Cricspoint/Cricspoint41-03.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="runs1">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>230</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>1</string>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">runs</string>
+   </attribute>
+  </widget>
+  <widget class="QRadioButton" name="runs2">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>230</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>2</string>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">runs</string>
+   </attribute>
+  </widget>
+  <widget class="QRadioButton" name="runs3">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>230</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>3</string>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">runs</string>
+   </attribute>
+  </widget>
+  <widget class="QRadioButton" name="runs4">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>230</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>4</string>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">runs</string>
+   </attribute>
+  </widget>
+  <widget class="QRadioButton" name="runs5">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>230</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>5</string>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">runs</string>
+   </attribute>
+  </widget>
+  <widget class="QRadioButton" name="runs6">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>230</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>6</string>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">runs</string>
+   </attribute>
+  </widget>
+  <widget class="QRadioButton" name="runs0">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>230</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">runs</string>
+   </attribute>
+  </widget>
+  <widget class="QCheckBox" name="wide">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>290</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Wide</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="noball">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>290</y>
+     <width>61</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>No Ball</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="legbye">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>290</y>
+     <width>61</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Legbye</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="bye">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>290</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Bye</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="wicket">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>350</y>
+     <width>61</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Wicket</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="wicketType">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>350</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="playerDismissed">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>350</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>350</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Player Dismissed</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>150</y>
+     <width>511</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>30</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Update Ball Data</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>230</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Runs Scored</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>290</y>
+     <width>41</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Extras</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="done">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>500</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Done</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="fielder">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>411</y>
+     <width>281</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>410</y>
+     <width>41</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Fielder</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="warn">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>460</y>
+     <width>551</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="runs"/>
+ </buttongroups>
+</ui>

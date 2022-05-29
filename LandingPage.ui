@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>611</width>
+    <height>555</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="logo">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>30</y>
+     <width>171</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>D:/Cricspoint/Cricspoint41-03.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="scoreMatch">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>240</y>
+     <width>111</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>16</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 0, 0);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Score Match</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="analysis">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>240</y>
+     <width>111</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 170, 0);</string>
+   </property>
+   <property name="text">
+    <string>Analysis</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addMatch">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>240</y>
+     <width>111</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>Add Match</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addPlayers">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>410</y>
+     <width>111</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 170, 255);</string>
+   </property>
+   <property name="text">
+    <string>Add Players</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="profile">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>410</y>
+     <width>111</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 0, 127);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Profile</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="signOut">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>410</y>
+     <width>111</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 85, 0);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Sign Out</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

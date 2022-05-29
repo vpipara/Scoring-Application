@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>611</width>
+    <height>555</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="logo">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>30</y>
+     <width>81</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>D:/Cricspoint/Cricspoint41-03.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblCreateTourn">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>110</y>
+     <width>291</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>35</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Create Tournament</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>210</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Tournament Name</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>280</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Teams</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>370</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Start Date</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>420</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>End Date</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="startDate">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>370</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="endDate">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>420</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="aus">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>270</y>
+     <width>70</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Australia</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="eng">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>270</y>
+     <width>70</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>England</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ind">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>300</y>
+     <width>70</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>India</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="nz">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>300</y>
+     <width>81</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>New Zealand</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="pak">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>300</y>
+     <width>70</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Pakistan</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="wi">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>330</y>
+     <width>81</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>West Indies</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="sl">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>330</y>
+     <width>70</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sri Lanka</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="sa">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>300</y>
+     <width>81</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>South Africa</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="afg">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>270</y>
+     <width>81</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Afghanistan</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ban">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>270</y>
+     <width>81</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Bangladesh</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="tName">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>210</y>
+     <width>351</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="createBtn">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>500</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Create</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>390</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Maximum Overs</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="maxOvers">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>390</y>
+     <width>41</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="warn">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>470</y>
+     <width>471</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Shocking Headline</family>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
